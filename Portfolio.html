@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Devesh - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: rgb(31, 5, 72);
+        color: white;
+        font-family: "Ubuntu", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(48, 15, 100);
+        width: 100%;
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+        margin: 0 23px;
+      }
+
+      nav ul li a:hover {
+        color: rgb(225, 151, 14);
+        font-size: 1.3rem;
+      }
+
+      nav div {
+        font-size: 20px;
+      }
+
+      .left {
+        font-size: 1.5rem;
+      }
+
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 190px;
+      }
+
+      .firstSection > div {
+        width: 30%;
+      }
+
+      .leftSection {
+        width: 34px;
+        font-size: 2.5rem;
+      }
+
+      .rightSection img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .purple {
+        color: rgba(255, 151, 14, 0.895);
+      }
+
+      #element {
+        color: rgb(225, 151, 14, 0.895);
+      }
+
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+
+      .secondSection h1 {
+        font-size: 2rem;
+      }
+
+      .secondSection .box {
+        background: silver;
+        width: 77vw;
+        height: 2px;
+        margin: 56px;
+        display: flex;
+      }
+
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0px 100px;
+      }
+
+      .image-top {
+        width: 90px;
+        margin-bottom: 35px;
+      }
+
+      .vertical-desc {
+        position: relative;
+        top: 6px;
+        color: gray;
+      }
+
+      .text-gray {
+        color: silver;
+        font-size: 1.25rem;
+      }
+      main hr {
+        border: 0px;
+        background: rgba(134, 49, 246, 0.822);
+        height: 0.4px;
+        margin: 40px 84px;
+      }
+
+      footer {
+        background-color: rgba(79, 37, 187, 0.835);
+        text-emphasis-color: Gray;
+        height: 100px;
+      }
+
+      .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left">Devesh Kumar's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Devesh</span>
+          <div>and I am a passionate</div>
+          <div>
+            <span id="element"></span>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img
+            src="developer-lesson.png"
+            alt="img was supposed to be here"
+            class="center"
+          />
+        </div>
+      </section>
+      <hr />
+      <!-- *********************************************************************************************** -->
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Skills & Certifications</h1>
+        <div class="box">
+          <!-- java -->
+          <div class="vertical">
+            <img class="image-top" src="java.png" ; />
+            <div class="vertical-text">Java Developer</div>
+            <div class="vertical-desc">
+              I worked on a few projects like Product management application
+            </div>
+          </div>
+          <!-- python -->
+          <div class="vertical">
+            <img class="image-top" src="python-short4.png" ; />
+            <div class="vertical-text">Python Developer</div>
+            <div class="vertical-desc">
+              I made a few contributions of FOSS through github
+            </div>
+          </div>
+          <!-- google cloud -->
+          <div class="vertical">
+            <img class="image-top" src="googleCloud.png" ; />
+            <div class="vertical-text">Google Cloud</div>
+            <div class="vertical-desc">
+              I got to have hands-on learning experiencing on practicing cloud
+              platform through GCCP program
+            </div>
+          </div>
+          <!-- Cisco -->
+          <div class="vertical">
+            <img class="image-top" src="cisco.png" ; />
+            <div class="vertical-text">CCNA</div>
+            <div class="vertical-desc">
+              Got to be a cisco certified network associate. Cleared the CCNA
+              Module 1,2, and 3
+            </div>
+          </div>
+          <!-- udemy -->
+          <div class="vertical">
+            <img class="image-top" src="udemy.png" ; />
+            <div class="vertical-text">Complete Python Bootcamp</div>
+            <div class="vertical-desc">
+              Completed a complete bootcamp on python and its tools
+            </div>
+          </div>
+          <!-- problem solving -->
+          <div class="vertical">
+            <img class="image-top" src="hackerrank.png" ; />
+            <div class="vertical-text">Problem solving</div>
+            <div class="vertical-desc">
+              Certified in problem solving(basic) through HackerRank
+            </div>
+          </div>
+          <!-- java certificate -->
+          <div class="vertical">
+            <img class="image-top" src="hackerrank.png" ; />
+            <div class="vertical-text">Java (Basic)</div>
+            <div class="vertical-desc">
+              Certified in problem solving(basic) through HackerRank
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <!-- <div class="flex">
+        <div class="footer-first">
+          <h3>About</h3>
+        </div>
+        <div class="footer-second">
+          <h3>Devesh's Developer Portfolio</h3>
+        </div>
+        <div class="footer-third">
+          <h3>Projects</h3>
+        </div>
+        <div class="footer-fourth">
+          <h3>Contact me</h3>
+        </div>
+      </div> -->
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Java(J2SE) Developer",
+          "Python Developer",
+          "PostgreSQL User",
+          "Touch Typer with 80+ wpm",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
